@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-import infoCardReducer from '../features/infoCard/infoCardSlice';
+import infoCardReducer from '../features/infoCardSlice';
+import modalReducer from '../features/modalSlice';
+import dataModalReducer from '../features/dataModalSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
     infoCard: infoCardReducer,
+    modal: modalReducer,
+    dataModal: dataModalReducer,
   },
 });
