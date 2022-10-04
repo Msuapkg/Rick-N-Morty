@@ -1,0 +1,30 @@
+.container-input-app {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Century Gothic';
+  }
+  
+  .input-app {
+    border-color: rgb(175, 175, 175);
+    border-radius: 10px;
+    margin-right: 5px;
+    width: 400px;
+    height: 23px;
+    font-family: 'Century Gothic';
+    text-align:center;
+  }
+  
+  .button-app {
+    border-color: aliceblue;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-align:center;
+  }
+
+  .button-app:hover {
+    background-color: black;
+    color: white;
+  }
